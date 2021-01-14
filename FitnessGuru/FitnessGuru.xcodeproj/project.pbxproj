@@ -1,0 +1,914 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F0E2C9525B00F4000876E44 /* FitnessGuruApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2C9425B00F4000876E44 /* FitnessGuruApp.swift */; };
+		3F0E2C9725B00F4000876E44 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2C9625B00F4000876E44 /* MainView.swift */; };
+		3F0E2C9925B00F4600876E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0E2C9825B00F4600876E44 /* Assets.xcassets */; };
+		3F0E2C9C25B00F4600876E44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0E2C9B25B00F4600876E44 /* Preview Assets.xcassets */; };
+		3F0E2CA925B00F7300876E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0E2CA825B00F7300876E44 /* Assets.xcassets */; };
+		3F0E2CB025B00F7400876E44 /* WatchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F0E2CAF25B00F7400876E44 /* WatchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F0E2CB525B00F7400876E44 /* FitnessGuruApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CB425B00F7400876E44 /* FitnessGuruApp.swift */; };
+		3F0E2CB725B00F7400876E44 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CB625B00F7400876E44 /* MainView.swift */; };
+		3F0E2CB925B00F7400876E44 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CB825B00F7400876E44 /* NotificationController.swift */; };
+		3F0E2CBB25B00F7400876E44 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CBA25B00F7400876E44 /* NotificationView.swift */; };
+		3F0E2CBD25B00F7400876E44 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CBC25B00F7400876E44 /* ComplicationController.swift */; };
+		3F0E2CBF25B00F7900876E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0E2CBE25B00F7900876E44 /* Assets.xcassets */; };
+		3F0E2CC225B00F7900876E44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0E2CC125B00F7900876E44 /* Preview Assets.xcassets */; };
+		3F0E2CC725B00F7900876E44 /* WatchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3F0E2CA625B00F6600876E44 /* WatchOS.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3F0E2CDC25B00FC900876E44 /* AllDevicesCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0E2CDA25B00FC900876E44 /* AllDevicesCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F0E2CDF25B00FC900876E44 /* AllDevicesCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0E2CD825B00FC900876E44 /* AllDevicesCore.framework */; };
+		3F0E2CE025B00FC900876E44 /* AllDevicesCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0E2CD825B00FC900876E44 /* AllDevicesCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3F0E2CF625B0103E00876E44 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CEF25B0103D00876E44 /* DetailView.swift */; };
+		3F0E2CF825B0103E00876E44 /* Supplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CF125B0103D00876E44 /* Supplement.swift */; };
+		3F0E2CF925B0103E00876E44 /* WorkOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CF225B0103E00876E44 /* WorkOut.swift */; };
+		3F0E2CFA25B0103E00876E44 /* WelcomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CF325B0103E00876E44 /* WelcomePage.swift */; };
+		3F0E2CFB25B0103E00876E44 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CF425B0103E00876E44 /* AccountView.swift */; };
+		3F0E2CFC25B0103E00876E44 /* Dight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2CF525B0103E00876E44 /* Dight.swift */; };
+		3F0E2D1625B0112100876E44 /* SupplementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2D1025B0112000876E44 /* SupplementView.swift */; };
+		3F0E2D1725B0112100876E44 /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2D1125B0112000876E44 /* WorkoutView.swift */; };
+		3F0E2D1825B0112100876E44 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2D1225B0112000876E44 /* WelcomeView.swift */; };
+		3F0E2D1925B0112100876E44 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2D1325B0112100876E44 /* DetailView.swift */; };
+		3F0E2D1B25B0112100876E44 /* DightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2D1525B0112100876E44 /* DightView.swift */; };
+		3F0E2D2325B0119A00876E44 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2D2225B0119A00876E44 /* AccountViewModel.swift */; };
+		3F0E2D2425B0119A00876E44 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2D2225B0119A00876E44 /* AccountViewModel.swift */; };
+		3F0E2D2525B0119A00876E44 /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2D2225B0119A00876E44 /* AccountViewModel.swift */; };
+		3F0E2D2A25B011A800876E44 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2D2925B011A800876E44 /* DataModel.swift */; };
+		3F0E2D2B25B011A800876E44 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2D2925B011A800876E44 /* DataModel.swift */; };
+		3F0E2D2C25B011A800876E44 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2D2925B011A800876E44 /* DataModel.swift */; };
+		3F0E2D3025B011C900876E44 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2D0A25B010C700876E44 /* User.swift */; };
+		3F0E2D3125B011C900876E44 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2D0A25B010C700876E44 /* User.swift */; };
+		3F0E2D3825B011D800876E44 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E2D0A25B010C700876E44 /* User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F0E2CB125B00F7400876E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0E2C8925B00F4000876E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0E2CAE25B00F7400876E44;
+			remoteInfo = "WatchOS Extension";
+		};
+		3F0E2CC525B00F7900876E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0E2C8925B00F4000876E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0E2CA525B00F6600876E44;
+			remoteInfo = WatchOS;
+		};
+		3F0E2CDD25B00FC900876E44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F0E2C8925B00F4000876E44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F0E2CD725B00FC900876E44;
+			remoteInfo = AllDevicesCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F0E2CCB25B00F7900876E44 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F0E2CB025B00F7400876E44 /* WatchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0E2CCF25B00F7900876E44 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3F0E2CC725B00F7900876E44 /* WatchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0E2CE425B00FC900876E44 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3F0E2CE025B00FC900876E44 /* AllDevicesCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F0E2C9125B00F4000876E44 /* FitnessGuru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitnessGuru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0E2C9425B00F4000876E44 /* FitnessGuruApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessGuruApp.swift; sourceTree = "<group>"; };
+		3F0E2C9625B00F4000876E44 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3F0E2C9825B00F4600876E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0E2C9B25B00F4600876E44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F0E2C9D25B00F4600876E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0E2CA625B00F6600876E44 /* WatchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0E2CA825B00F7300876E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0E2CAA25B00F7300876E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0E2CAF25B00F7400876E44 /* WatchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0E2CB425B00F7400876E44 /* FitnessGuruApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessGuruApp.swift; sourceTree = "<group>"; };
+		3F0E2CB625B00F7400876E44 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3F0E2CB825B00F7400876E44 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		3F0E2CBA25B00F7400876E44 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		3F0E2CBC25B00F7400876E44 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		3F0E2CBE25B00F7900876E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F0E2CC125B00F7900876E44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3F0E2CC325B00F7900876E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0E2CC425B00F7900876E44 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3F0E2CD825B00FC900876E44 /* AllDevicesCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AllDevicesCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0E2CDA25B00FC900876E44 /* AllDevicesCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllDevicesCore.h; sourceTree = "<group>"; };
+		3F0E2CDB25B00FC900876E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0E2CEF25B0103D00876E44 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3F0E2CF125B0103D00876E44 /* Supplement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplement.swift; sourceTree = "<group>"; };
+		3F0E2CF225B0103E00876E44 /* WorkOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkOut.swift; sourceTree = "<group>"; };
+		3F0E2CF325B0103E00876E44 /* WelcomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomePage.swift; sourceTree = "<group>"; };
+		3F0E2CF425B0103E00876E44 /* AccountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		3F0E2CF525B0103E00876E44 /* Dight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dight.swift; sourceTree = "<group>"; };
+		3F0E2D0A25B010C700876E44 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		3F0E2D1025B0112000876E44 /* SupplementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupplementView.swift; sourceTree = "<group>"; };
+		3F0E2D1125B0112000876E44 /* WorkoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		3F0E2D1225B0112000876E44 /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		3F0E2D1325B0112100876E44 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3F0E2D1525B0112100876E44 /* DightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DightView.swift; sourceTree = "<group>"; };
+		3F0E2D2125B0119900876E44 /* WatchOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WatchOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		3F0E2D2225B0119A00876E44 /* AccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		3F0E2D2925B011A800876E44 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F0E2C8E25B00F4000876E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0E2CAC25B00F7400876E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0E2CDF25B00FC900876E44 /* AllDevicesCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0E2CD525B00FC900876E44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F0E2C8825B00F4000876E44 = {
+			isa = PBXGroup;
+			children = (
+				3F0E2C9325B00F4000876E44 /* FitnessGuru */,
+				3F0E2CA725B00F6700876E44 /* WatchOS */,
+				3F0E2CB325B00F7400876E44 /* WatchOS Extension */,
+				3F0E2CD925B00FC900876E44 /* AllDevicesCore */,
+				3F0E2C9225B00F4000876E44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F0E2C9225B00F4000876E44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E2C9125B00F4000876E44 /* FitnessGuru.app */,
+				3F0E2CA625B00F6600876E44 /* WatchOS.app */,
+				3F0E2CAF25B00F7400876E44 /* WatchOS Extension.appex */,
+				3F0E2CD825B00FC900876E44 /* AllDevicesCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F0E2C9325B00F4000876E44 /* FitnessGuru */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E2CEE25B0102600876E44 /* Views */,
+				3F0E2C9425B00F4000876E44 /* FitnessGuruApp.swift */,
+				3F0E2C9825B00F4600876E44 /* Assets.xcassets */,
+				3F0E2C9D25B00F4600876E44 /* Info.plist */,
+				3F0E2C9A25B00F4600876E44 /* Preview Content */,
+			);
+			path = FitnessGuru;
+			sourceTree = "<group>";
+		};
+		3F0E2C9A25B00F4600876E44 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E2C9B25B00F4600876E44 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F0E2CA725B00F6700876E44 /* WatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E2CA825B00F7300876E44 /* Assets.xcassets */,
+				3F0E2CAA25B00F7300876E44 /* Info.plist */,
+			);
+			path = WatchOS;
+			sourceTree = "<group>";
+		};
+		3F0E2CB325B00F7400876E44 /* WatchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E2D0F25B010E100876E44 /* Views */,
+				3F0E2CB425B00F7400876E44 /* FitnessGuruApp.swift */,
+				3F0E2CB825B00F7400876E44 /* NotificationController.swift */,
+				3F0E2CBA25B00F7400876E44 /* NotificationView.swift */,
+				3F0E2CBC25B00F7400876E44 /* ComplicationController.swift */,
+				3F0E2CBE25B00F7900876E44 /* Assets.xcassets */,
+				3F0E2CC325B00F7900876E44 /* Info.plist */,
+				3F0E2CC425B00F7900876E44 /* PushNotificationPayload.apns */,
+				3F0E2CC025B00F7900876E44 /* Preview Content */,
+			);
+			path = "WatchOS Extension";
+			sourceTree = "<group>";
+		};
+		3F0E2CC025B00F7900876E44 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E2CC125B00F7900876E44 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3F0E2CD925B00FC900876E44 /* AllDevicesCore */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E2D2025B0116900876E44 /* DataModel */,
+				3F0E2D1F25B0115600876E44 /* ViewModer */,
+				3F0E2CDA25B00FC900876E44 /* AllDevicesCore.h */,
+				3F0E2CDB25B00FC900876E44 /* Info.plist */,
+			);
+			path = AllDevicesCore;
+			sourceTree = "<group>";
+		};
+		3F0E2CEE25B0102600876E44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E2CF425B0103E00876E44 /* AccountView.swift */,
+				3F0E2CEF25B0103D00876E44 /* DetailView.swift */,
+				3F0E2CF525B0103E00876E44 /* Dight.swift */,
+				3F0E2CF125B0103D00876E44 /* Supplement.swift */,
+				3F0E2CF325B0103E00876E44 /* WelcomePage.swift */,
+				3F0E2CF225B0103E00876E44 /* WorkOut.swift */,
+				3F0E2C9625B00F4000876E44 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F0E2D0F25B010E100876E44 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E2D1325B0112100876E44 /* DetailView.swift */,
+				3F0E2D1525B0112100876E44 /* DightView.swift */,
+				3F0E2D1025B0112000876E44 /* SupplementView.swift */,
+				3F0E2D1225B0112000876E44 /* WelcomeView.swift */,
+				3F0E2D1125B0112000876E44 /* WorkoutView.swift */,
+				3F0E2CB625B00F7400876E44 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3F0E2D1F25B0115600876E44 /* ViewModer */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E2D2225B0119A00876E44 /* AccountViewModel.swift */,
+				3F0E2D0A25B010C700876E44 /* User.swift */,
+				3F0E2D2125B0119900876E44 /* WatchOS-Bridging-Header.h */,
+			);
+			path = ViewModer;
+			sourceTree = "<group>";
+		};
+		3F0E2D2025B0116900876E44 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F0E2D2925B011A800876E44 /* DataModel.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F0E2CD325B00FC900876E44 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0E2CDC25B00FC900876E44 /* AllDevicesCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F0E2C9025B00F4000876E44 /* FitnessGuru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0E2CA025B00F4600876E44 /* Build configuration list for PBXNativeTarget "FitnessGuru" */;
+			buildPhases = (
+				3F0E2C8D25B00F4000876E44 /* Sources */,
+				3F0E2C8E25B00F4000876E44 /* Frameworks */,
+				3F0E2C8F25B00F4000876E44 /* Resources */,
+				3F0E2CCF25B00F7900876E44 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0E2CC625B00F7900876E44 /* PBXTargetDependency */,
+			);
+			name = FitnessGuru;
+			productName = FitnessGuru;
+			productReference = 3F0E2C9125B00F4000876E44 /* FitnessGuru.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F0E2CA525B00F6600876E44 /* WatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0E2CCC25B00F7900876E44 /* Build configuration list for PBXNativeTarget "WatchOS" */;
+			buildPhases = (
+				3F0E2CA425B00F6600876E44 /* Resources */,
+				3F0E2CCB25B00F7900876E44 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0E2CB225B00F7400876E44 /* PBXTargetDependency */,
+			);
+			name = WatchOS;
+			productName = WatchOS;
+			productReference = 3F0E2CA625B00F6600876E44 /* WatchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3F0E2CAE25B00F7400876E44 /* WatchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0E2CC825B00F7900876E44 /* Build configuration list for PBXNativeTarget "WatchOS Extension" */;
+			buildPhases = (
+				3F0E2CAB25B00F7400876E44 /* Sources */,
+				3F0E2CAC25B00F7400876E44 /* Frameworks */,
+				3F0E2CAD25B00F7400876E44 /* Resources */,
+				3F0E2CE425B00FC900876E44 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F0E2CDE25B00FC900876E44 /* PBXTargetDependency */,
+			);
+			name = "WatchOS Extension";
+			productName = "WatchOS Extension";
+			productReference = 3F0E2CAF25B00F7400876E44 /* WatchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		3F0E2CD725B00FC900876E44 /* AllDevicesCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F0E2CE125B00FC900876E44 /* Build configuration list for PBXNativeTarget "AllDevicesCore" */;
+			buildPhases = (
+				3F0E2CD325B00FC900876E44 /* Headers */,
+				3F0E2CD425B00FC900876E44 /* Sources */,
+				3F0E2CD525B00FC900876E44 /* Frameworks */,
+				3F0E2CD625B00FC900876E44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AllDevicesCore;
+			productName = AllDevicesCore;
+			productReference = 3F0E2CD825B00FC900876E44 /* AllDevicesCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F0E2C8925B00F4000876E44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					3F0E2C9025B00F4000876E44 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					3F0E2CA525B00F6600876E44 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+					3F0E2CAE25B00F7400876E44 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					3F0E2CD725B00FC900876E44 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 3F0E2C8C25B00F4000876E44 /* Build configuration list for PBXProject "FitnessGuru" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F0E2C8825B00F4000876E44;
+			productRefGroup = 3F0E2C9225B00F4000876E44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F0E2C9025B00F4000876E44 /* FitnessGuru */,
+				3F0E2CA525B00F6600876E44 /* WatchOS */,
+				3F0E2CAE25B00F7400876E44 /* WatchOS Extension */,
+				3F0E2CD725B00FC900876E44 /* AllDevicesCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F0E2C8F25B00F4000876E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0E2C9C25B00F4600876E44 /* Preview Assets.xcassets in Resources */,
+				3F0E2C9925B00F4600876E44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0E2CA425B00F6600876E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0E2CA925B00F7300876E44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0E2CAD25B00F7400876E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0E2CC225B00F7900876E44 /* Preview Assets.xcassets in Resources */,
+				3F0E2CBF25B00F7900876E44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0E2CD625B00FC900876E44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F0E2C8D25B00F4000876E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0E2CF825B0103E00876E44 /* Supplement.swift in Sources */,
+				3F0E2C9725B00F4000876E44 /* MainView.swift in Sources */,
+				3F0E2D2A25B011A800876E44 /* DataModel.swift in Sources */,
+				3F0E2CF625B0103E00876E44 /* DetailView.swift in Sources */,
+				3F0E2CFB25B0103E00876E44 /* AccountView.swift in Sources */,
+				3F0E2CFC25B0103E00876E44 /* Dight.swift in Sources */,
+				3F0E2D2325B0119A00876E44 /* AccountViewModel.swift in Sources */,
+				3F0E2CFA25B0103E00876E44 /* WelcomePage.swift in Sources */,
+				3F0E2C9525B00F4000876E44 /* FitnessGuruApp.swift in Sources */,
+				3F0E2CF925B0103E00876E44 /* WorkOut.swift in Sources */,
+				3F0E2D3825B011D800876E44 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0E2CAB25B00F7400876E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0E2D1725B0112100876E44 /* WorkoutView.swift in Sources */,
+				3F0E2D1925B0112100876E44 /* DetailView.swift in Sources */,
+				3F0E2CB925B00F7400876E44 /* NotificationController.swift in Sources */,
+				3F0E2CB725B00F7400876E44 /* MainView.swift in Sources */,
+				3F0E2D1825B0112100876E44 /* WelcomeView.swift in Sources */,
+				3F0E2D3125B011C900876E44 /* User.swift in Sources */,
+				3F0E2D2B25B011A800876E44 /* DataModel.swift in Sources */,
+				3F0E2CBD25B00F7400876E44 /* ComplicationController.swift in Sources */,
+				3F0E2D1B25B0112100876E44 /* DightView.swift in Sources */,
+				3F0E2D1625B0112100876E44 /* SupplementView.swift in Sources */,
+				3F0E2CB525B00F7400876E44 /* FitnessGuruApp.swift in Sources */,
+				3F0E2D2425B0119A00876E44 /* AccountViewModel.swift in Sources */,
+				3F0E2CBB25B00F7400876E44 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F0E2CD425B00FC900876E44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F0E2D2525B0119A00876E44 /* AccountViewModel.swift in Sources */,
+				3F0E2D2C25B011A800876E44 /* DataModel.swift in Sources */,
+				3F0E2D3025B011C900876E44 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F0E2CB225B00F7400876E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0E2CAE25B00F7400876E44 /* WatchOS Extension */;
+			targetProxy = 3F0E2CB125B00F7400876E44 /* PBXContainerItemProxy */;
+		};
+		3F0E2CC625B00F7900876E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0E2CA525B00F6600876E44 /* WatchOS */;
+			targetProxy = 3F0E2CC525B00F7900876E44 /* PBXContainerItemProxy */;
+		};
+		3F0E2CDE25B00FC900876E44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F0E2CD725B00FC900876E44 /* AllDevicesCore */;
+			targetProxy = 3F0E2CDD25B00FC900876E44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F0E2C9E25B00F4600876E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F0E2C9F25B00F4600876E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F0E2CA125B00F4600876E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FitnessGuru/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FitnessGuru/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AUS.FitnessGuru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F0E2CA225B00F4600876E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FitnessGuru/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FitnessGuru/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AUS.FitnessGuru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F0E2CC925B00F7900876E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchOS Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WatchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AUS.FitnessGuru.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		3F0E2CCA25B00F7900876E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchOS Extension/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "WatchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AUS.FitnessGuru.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		3F0E2CCD25B00F7900876E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = WatchOS_Extension;
+				INFOPLIST_FILE = WatchOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AUS.FitnessGuru.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AllDevicesCore/ViewModer/WatchOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		3F0E2CCE25B00F7900876E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				IBSC_MODULE = WatchOS_Extension;
+				INFOPLIST_FILE = WatchOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AUS.FitnessGuru.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AllDevicesCore/ViewModer/WatchOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+		3F0E2CE225B00FC900876E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AllDevicesCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AUS.AllDevicesCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Debug;
+		};
+		3F0E2CE325B00FC900876E44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AllDevicesCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AUS.AllDevicesCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 7.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F0E2C8C25B00F4000876E44 /* Build configuration list for PBXProject "FitnessGuru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0E2C9E25B00F4600876E44 /* Debug */,
+				3F0E2C9F25B00F4600876E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0E2CA025B00F4600876E44 /* Build configuration list for PBXNativeTarget "FitnessGuru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0E2CA125B00F4600876E44 /* Debug */,
+				3F0E2CA225B00F4600876E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0E2CC825B00F7900876E44 /* Build configuration list for PBXNativeTarget "WatchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0E2CC925B00F7900876E44 /* Debug */,
+				3F0E2CCA25B00F7900876E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0E2CCC25B00F7900876E44 /* Build configuration list for PBXNativeTarget "WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0E2CCD25B00F7900876E44 /* Debug */,
+				3F0E2CCE25B00F7900876E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F0E2CE125B00FC900876E44 /* Build configuration list for PBXNativeTarget "AllDevicesCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F0E2CE225B00FC900876E44 /* Debug */,
+				3F0E2CE325B00FC900876E44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F0E2C8925B00F4000876E44 /* Project object */;
+}
